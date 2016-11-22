@@ -24,3 +24,6 @@ Może się też przydać:
 Warsztaty:
 * [21.11.2016](lab1.md) -- wstęp do niskopoziomowego RE/pwn, debugowanie natywnego kodu, ramki stosu itd.
 * Kolejne: 28.11.2016
+
+---
+Chcesz dołączyć? Wypełnij ankietę - https://docs.google.com/forms/d/1lMoy8ZdEW05EDSmZ5hr2iwRAOdMNKp4f6darXFQDVMQ/edit#responses - dobrze, żebyś mniej więcej umiał zrobić przerobione już rzeczy (zobaz na `warsztaty`).
