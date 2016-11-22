@@ -11,7 +11,7 @@ As the workshops are in Polish, so are the materials here.
 
 ### Chcesz dołączyć?
 
-Wypełnij ankietę - https://docs.google.com/forms/d/1lMoy8ZdEW05EDSmZ5hr2iwRAOdMNKp4f6darXFQDVMQ/edit#responses - dobrze, żebyś też mniej więcej umiał/rozumiał przerobione już rzeczy (zobaz na `warsztaty`).
+Wypełnij ankietę - https://docs.google.com/forms/d/1lMoy8ZdEW05EDSmZ5hr2iwRAOdMNKp4f6darXFQDVMQ/edit#responses - dobrze, żebyś też mniej więcej umiał/rozumiał przerobione już rzeczy (zobacz na `warsztaty`).
 
 ### Rzeczy, które się przydadzą:
 - laptop; dobrze byłoby mieć Linuxa
