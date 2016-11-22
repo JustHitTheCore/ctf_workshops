@@ -1,4 +1,4 @@
-# jhtc_ctf_workshops
+# JHTC CTF Workshops / KNI Kernel AGH
 This repo contains materials from Just Hit the Core CTF team workshops organized thanks to [KNI Kernel](https://www.facebook.com/KNIKernel/) at AGH University of Science and Technology.
 
 As the workshops are in Polish, so are the materials here.
