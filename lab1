@@ -26,5 +26,7 @@ Wyświetlanie stron pamięci danego procesu:
     w pwndbg/peda: vmmap
 
 
-http://blog.exploitlab.net/2011/12/tutorials-to-refresh-your-fundamental.html
-https://sploitfun.wordpress.com/2015/06/26/linux-x86-exploit-development-tutorial-series/
+## Rzeczy do zrobienia/przeczytania na kolejne laborki:
+* Wykłady z http://re.disconnect3d.pl/
+* http://blog.exploitlab.net/2011/12/tutorials-to-refresh-your-fundamental.html
+* https://sploitfun.wordpress.com/2015/06/26/linux-x86-exploit-development-tutorial-series/
