@@ -17,12 +17,18 @@ Wypełnij ankietę - https://docs.google.com/forms/d/1lMoy8ZdEW05EDSmZ5hr2iwRAOd
 - laptop; dobrze byłoby mieć Linuxa
 - dostęp do sieci międzyuczelnianej eduroam (jeśli jesteś studentem)
 - Gdb, Python
-- Ida pro i/lub Hopper (https://www.hopperapp.com/)
-- pwndbg, pwntools:
-* https://github.com/pwndbg/pwndbg
-* https://github.com/Gallopsled/pwntools
+- Ida pro i/lub [Hopper](https://www.hopperapp.com/)
+* [pwndbg](https://github.com/pwndbg/pwndbg)
+* [pwntools do Pythona 2](https://github.com/Gallopsled/pwntools)
 
 ### Może się też przydać:
 - http://angr.io/
-- https://github.com/Z3Prover/z3 (do Pythona; nie pamiętam jak się to instalowało ale chyba w pipie nie było...)
+- [Z3](https://github.com/Z3Prover/z3) - do Pythona (chyba nie ma w pipie (menedżerze paczek Pythona))
 - jakieś proxy do webów - Burp Suite / Fiddler / ZAProxy
+
+### Inne materiały do nauki..:
+- OverTheWire
+- pwnable.kr
+- rozwal.to
+- crackmes.de
+- https://cryptopals.com/ , kurs z crypto na Coursera
