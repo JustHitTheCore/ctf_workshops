@@ -22,5 +22,5 @@ Może się też przydać:
 ---
 
 Warsztaty:
-* [21.11.2016](lab1.md)
+* [21.11.2016](lab1.md) -- wstęp do niskopoziomowego RE/pwn, debugowanie natywnego kodu, ramki stosu itd.
 * Kolejne: 28.11.2016
