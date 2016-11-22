@@ -1,7 +1,7 @@
 # jhtc_ctf_workshops
-This repo contains material from Just Hit the Core CTF team workshops organized at AGH University of Science and Technology.
+This repo contains materials from Just Hit the Core CTF team workshops organized thanks to [KNI Kernel](https://www.facebook.com/KNIKernel/) at AGH University of Science and Technology.
 
-As the workshops are in polish, so is the material here.
+As the workshops are in Polish, so is the material here.
 
 ---
 
@@ -18,3 +18,9 @@ Może się też przydać:
 - http://angr.io/
 - https://github.com/Z3Prover/z3 (do Pythona; nie pamiętam jak się to instalowało ale chyba w pipie nie było...)
 - jakieś proxy do webów - Burp Suite / Fiddler / ZAProxy
+
+---
+
+Warsztaty:
+* [21.11.2016](lab1.md)
+* Kolejne: 28.11.2016
