@@ -16,16 +16,15 @@ Komendy GDB z skrótami/wyjaśnieniem:
 * jmp <funkcja/adres> - skok do danej funkcji/adresu (zmienia RIP/EIP)
 * x - "egzaminowanie" pamięci, wykorzystywane wraz z formatem - np. `x/16xw <adres>` wyświetli 16 elementów dwubajtowych (specyfikator `w` - niefortunnie `word` w gdb to cztery bajty) z podanego adresu zapisanych heksadecymalnie (x) 
 
+Komendy pwndbg:
+* vmmap - wyświetlanie mapy pamięci (korzysta z `cat /proc/<pid>/maps`)
+* search - szukanie w pamięci
+
 Losowe hinty do Ida Pro/Hopper:
 * Typy wyświetlane czasem przez Idę: BYTE (1B), WORD (2B), DWORD (4B), QWORD (8B)
 * Klawisz 'n' na symbolu - refaktoryzacja jego nazwy
 * Klawisz 'x' na symbolu - szukanie xrefów
 * Klawisz 'y' na symbolu - zmiana jego typu (dla zdekompilowanego kodu)
-
-Wyświetlanie stron pamięci danego procesu:
-* `cat /proc/<pid>/maps`
-* W pwndbg/peda: `vmmap`
-
 
 ## Rzeczy do zrobienia/przeczytania przed kolejnymi warsztatami:
 * Wykłady z http://re.disconnect3d.pl/
