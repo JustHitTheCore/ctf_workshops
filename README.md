@@ -26,4 +26,4 @@ Warsztaty:
 * Kolejne: 28.11.2016
 
 ---
-Chcesz dołączyć? Wypełnij ankietę - https://docs.google.com/forms/d/1lMoy8ZdEW05EDSmZ5hr2iwRAOdMNKp4f6darXFQDVMQ/edit#responses - dobrze, żebyś mniej więcej umiał zrobić przerobione już rzeczy (zobaz na `warsztaty`).
+Chcesz dołączyć? Wypełnij ankietę - https://docs.google.com/forms/d/1lMoy8ZdEW05EDSmZ5hr2iwRAOdMNKp4f6darXFQDVMQ/edit#responses - dobrze, żebyś też mniej więcej umiał/rozumiał przerobione już rzeczy (zobaz na `warsztaty`).
