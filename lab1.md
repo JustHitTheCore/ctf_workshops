@@ -1,7 +1,7 @@
 
 Przerobione zadania:
 * http://re.disconnect3d.pl/logmein - proste zadanie z RE, które wymaga tak naprawdę zrobienia XORa dwóch stringów
-* http://re.disconnect3d.pl/easy - zadanie z PWN, nieskończone - **do dokończenia w domu**
+* http://re.disconnect3d.pl/easy - zadanie z PWN, nieskończone - **do dokończenia w domu** -- cel - uruchomienie shella (docelowo zadanie było hostowane na zdalnym serwerze) - tutaj warto jest [początkowo wyłaczyć ASLR](http://askubuntu.com/questions/318315/how-can-i-temporarily-disable-aslr-address-space-layout-randomization)
 
 Komendy GDB z skrótami/wyjaśnieniem:
 * r - run
