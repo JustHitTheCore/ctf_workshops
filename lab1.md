@@ -15,6 +15,7 @@ Komendy GDB z skrótami/wyjaśnieniem:
 * b <funkcja/adres> - stawianie breakpointa, gdy podajemy adres, należy poprzedzić go znakiem *
 * jmp <funkcja/adres> - skok do danej funkcji/adresu (zmienia RIP/EIP)
 * x - "egzaminowanie" pamięci, wykorzystywane wraz z formatem - np. `x/16xw <adres>` wyświetli 16 elementów dwubajtowych (specyfikator `w` - niefortunnie `word` w gdb to cztery bajty) z podanego adresu zapisanych heksadecymalnie (x) 
+* bt
 
 Komendy pwndbg:
 * vmmap - wyświetlanie mapy pamięci (korzysta z `cat /proc/<pid>/maps`)
