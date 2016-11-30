@@ -84,3 +84,4 @@ W tym celu podpinaliśmy się przez gdb zdalnie do procesu (`sudo gdb <binarka>;
 
 ### Zadanie domowe
 - przerobić eksploita, tak, żeby działał z włączonym ASLR (hint: trzeba zrobić memory leak'a; adres bufora znajduje się gdzieś na stosie, bo został przekazany do funkcji main).
+- zcrackować http://re.disconnect3d.pl/easy_crackme bez dekompilacji kodu i spróbować ręcznie odtworzyć kod programu w C
