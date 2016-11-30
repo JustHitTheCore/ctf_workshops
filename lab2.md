@@ -1,5 +1,5 @@
 
-Na warsztatach było trochę powtórki asm/re (można przejrzeć wykłady z http://re.disconnect3d.pl/), no i skończyliśmy eksploita z lab1:
+Na warsztatach było trochę powtórki asm/re (można przejrzeć wykłady z http://re.disconnect3d.pl/), no i skończyliśmy eksploita z lab1, dla wyłączonego ASLR ([jak wyłączyć ASLR](http://askubuntu.com/questions/318315/how-can-i-temporarily-disable-aslr-address-space-layout-randomization)):
 
 ```python
 TODO: wkleic kod
@@ -23,3 +23,6 @@ W tym celu podpinaliśmy się przez gdb zdalnie do procesu (`sudo gdb <binarka>;
 - poznawanie wersji libc na podstawie adresów
 
 ### Kolejne warsztaty - za 2 tygodnie - za tydzień jest CodeEurope.
+
+### Zadanie domowe
+- przerobić eksploita, tak, żeby działał z włączonym ASLR (hint: trzeba zrobić memory leak'a; adres bufora znajduje się gdzieś na stosie, bo został przekazany do funkcji main).
