@@ -6,8 +6,9 @@ As the workshops are in Polish, so are the materials here.
 ---
 
 ### Warsztaty:
-* [21.11.2016](lab1.md) -- wstęp do niskopoziomowego RE/pwn, debugowanie natywnego kodu, ramki stosu, buffer overflow itd.
-* Kolejne: 28.11.2016
+* [21.11.2016](lab1.md) - wstęp do niskopoziomowego RE/pwn, debugowanie natywnego kodu, ramki stosu, buffer overflow itd.
+* [28.11.2016](lab2.md) - dokończenie zadania z poprzednich warsztatów, pokazanie/omówienie ROPa, return2libc, roppera.
+* Kolejne: 12.12.2016
 
 ### Chcesz dołączyć?
 
