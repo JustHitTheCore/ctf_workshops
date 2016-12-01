@@ -8,7 +8,7 @@ As the workshops are in Polish, so are the materials here.
 ### Warsztaty:
 * [21.11.2016](lab1.md) - wstęp do niskopoziomowego RE/pwn, debugowanie natywnego kodu, ramki stosu, buffer overflow itd.
 * [28.11.2016](lab2.md) - dokończenie zadania z poprzednich warsztatów, pokazanie/omówienie ROPa, return2libc, roppera.
-* 5.12 - brak warsztatów ze względu na Code Europe ([prelekcja o CTFach - zapraszam(https://www.codeeurope.pl/pl/prelegenci/dominik-czarnota#/szczegoly/53?_k=b0m12c)])
+* 5.12 - brak warsztatów ze względu na Code Europe ([prelekcja o CTFach - zapraszam](https://www.codeeurope.pl/pl/prelegenci/dominik-czarnota#/szczegoly/53?_k=b0m12c))
 * Kolejne: 12.12.2016
 
 ### Chcesz dołączyć?
