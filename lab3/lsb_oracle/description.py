@@ -1,0 +1,17 @@
+#! /usr/bin/env python3
+
+from Crypto.Cipher import PKCS1_v1_5
+from Crypto.PublicKey import RSA
+from Crypto.Util.number import bytes_to_long
+
+n = -1	# get it from the provided EXE file
+e = -1	# get it from the provided EXE file
+
+flag = b'' # redacted
+key = RSA.construct((n, e))
+cipher = PKCS1_v1_5.new(key)
+ctxt = bytes_to_long(cipher.encrypt(flag))
+
+print(ctxt)
+# output is:
+# 2201077887205099886799419505257984908140690335465327695978150425602737431754769971309809434546937184700758848191008699273369652758836177602723960420562062515168299835193154932988833308912059796574355781073624762083196012981428684386588839182461902362533633141657081892129830969230482783192049720588548332813
