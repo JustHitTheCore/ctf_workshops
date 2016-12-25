@@ -12,6 +12,8 @@ As the workshops are in Polish, so are the materials here.
 * 12.12.2016 - rozwiązywanie zadanek z pwnable.kr; nie ma writeupa... :p
 * [19.12.2016](lab3.md) - zobaczenie toola "Veles" oraz kryptografia - RSA
 
+---
+
 ### Chcesz dołączyć?
 
 Wymagania – przede wszystkim znajomość jakiegoś języka skryptowego (np. Python/Ruby) i chęć grania w CTFy…
