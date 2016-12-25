@@ -9,7 +9,7 @@ As the workshops are in Polish, so are the materials here.
 * [21.11.2016](lab1.md) - wstęp do niskopoziomowego RE/pwn, debugowanie natywnego kodu, ramki stosu, buffer overflow itd.
 * [28.11.2016](lab2.md) - dokończenie zadania z poprzednich warsztatów, pokazanie/omówienie ROPa, return2libc, roppera.
 * 5.12.2016 - brak warsztatów ze względu na Code Europe ([prelekcja o CTFach - zapraszam](https://www.codeeurope.pl/pl/prelegenci/dominik-czarnota#/szczegoly/53?_k=b0m12c))
-* [19.12.2016](lab3.md) - zobaczenie toola "Veles" oraz kryptografia - RSA
+* [19.12.2016](lab3.md) - zobaczenie narzędzia [Veles](https://codisec.com/veles/) oraz [kryptografia - RSA](lab3/README.md)
 * kolejne warsztaty - w pryszłym roku: 9.01.2017
 ---
 
