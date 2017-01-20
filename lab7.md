@@ -104,7 +104,7 @@ airdrop-ng -i wlp5s0 -r rule_file
     ```
 
 
-## WEP
+### WEP
 * łamanie
     ```
     # odpal interfejs w trybie monitor
@@ -121,10 +121,9 @@ airdrop-ng -i wlp5s0 -r rule_file
     ```
 
 * łączenie z AP bez hasła
-    ```easside-ng```
+    `easside-ng`
 
 * nawet lepsze ataki: patrz. wesside-ng
-
 
 ### WPA/WPA2
 * tkiptun-ng, docelowo umożliwiający wstrzykiwanie pakietów (https://www.aircrack-ng.org/doku.php?id=tkiptun-ng), lepiej używać AES
