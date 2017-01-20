@@ -13,6 +13,7 @@ As the workshops are in Polish, so are the materials here.
 * lab5 - 9.01.2017 - udział w prelekcji koła UKOD o nmap'ie; rozwiązywanie zadanek crypto z pwnerrank.com
 * lab6 - 16.01.2017 - prezentacja o hashah, zadanie ROP z pwnerrank.com (patrz lab6/)
 * lab7 - następne spotkanie: 23.01.2017 - ([należy zainstalować narzędzia wylistowane tutaj](lab7.md))
+
 ---
 
 ### Chcesz dołączyć?
