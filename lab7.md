@@ -1,5 +1,5 @@
 ### Do zainstalowania
-* wireshark
+* wireshark + libpcap (biblioteka powinna się zainstalować wraz z wiresharkiem)
 * [aircrack-ng](https://www.aircrack-ng.org/)1
 * [reaver, wash](http://tools.kali.org/wireless-attacks/reaver)
 * [fluxion](https://github.com/deltaxflux/fluxion) - ma sporo zależności
