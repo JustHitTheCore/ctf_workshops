@@ -12,8 +12,8 @@ As the workshops are in Polish, so are the materials here.
 * [lab4 - 19.12.2016](lab3.md) - zobaczenie narzędzia [Veles](https://codisec.com/veles/) oraz [kryptografia - RSA](lab3/README.md)
 * lab5 - 9.01.2017 - udział w prelekcji koła UKOD o nmap'ie; rozwiązywanie zadanek crypto z pwnerrank.com
 * lab6 - 16.01.2017 - prezentacja o hashah, zadanie ROP z pwnerrank.com (patrz lab6/)
-* lab7 - następne spotkanie: 23.01.2017 - ([należy zainstalować narzędzia wylistowane tutaj](lab7.md))
-
+* lab7 - 23.01.2017 - przejrzenie zadań z kategorii Web oraz RE/pwn z Teaser Insomni'Hack CTF. Między innymi: omówienie architektury MIPS i tego jak zabrać się za inżynierię wsteczną binarek na nią (seria zadań bender_safe); uzyskanie dostępu do niepoprawnie zabezpieczonego panelu administracyjnego serwera tomcat poprzez usługę proxy (zadanie smarttomcat); analiza zapisu ruchu sieciowego (Wireshark) oraz omówienie zabezpieczeń przeglądarek przed atakami XSS (nagłówki X-XSS-Protection, CSP, flagi ciasteczek HttpOnly oraz Secure).
+* kolejne spotkanie - do ustalenia, możliwe, że zdalnie w trakcie sesji
 ---
 
 ### Chcesz dołączyć?
