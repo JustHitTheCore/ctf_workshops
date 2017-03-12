@@ -17,7 +17,9 @@ As the workshops are in Polish, so are the materials here.
   * uzyskanie dostępu do niepoprawnie zabezpieczonego panelu administracyjnego serwera tomcat poprzez usługę proxy (zadanie smarttomcat)
   * analiza zapisu ruchu sieciowego (Wireshark; seria zadań Great Escape)
   * omówienie zabezpieczeń przeglądarek przed atakami XSS (nagłówki X-XSS-Protection, CSP, flagi ciasteczek HttpOnly oraz Secure; seria zadań Great Escape).
-* kolejne spotkanie - do ustalenia, możliwe, że zdalnie w trakcie sesji
+* lab8 - rozbiórka routera, zabawa z jego bootloaderem, shellem, dump filesystemu
+* lab9 - 12.03.2017 - warsztaty całodniowe - inżynieria wsteczna i eksploitacja aplikacji na architekturę MIPS
+* kolejne spotkanie - ??? do ustalenia
 
 ---
 
