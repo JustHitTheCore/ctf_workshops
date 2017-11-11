@@ -7,7 +7,7 @@ As the workshops are in Polish, so are the materials here.
 
 ### Warsztaty w roku akademickim 2017/2018
 
-* 8.11.2017 - robiliśmy zadania z [mini CTFa od P4 z konferencji Security PWNing Conference 2017](https://pwning2017.p4.team/tasks): web100 captcha, web150 sprzedam flagę, crypto25 xor oraz re100 nieznany format. Omówiliśmy między innymi jak działa protokół HTTP, jak skonfigurować proxy w przeglądarce (wykorzystaliśmy Burp Suite jako proxy), co nieco o działaniu HSTS. Powiedzieliśmy również co nieco o LLVM, jego pośredniej reprezentacji kodu oraz podstawach asemblera (rejestry procesora, kilka instrukcji, na tyle, aby zrobić zadanie re100).
+* 8.11.2017 - robiliśmy zadania z [mini CTFa od P4 z konferencji Security PWNing Conference 2017](https://pwning2017.p4.team/tasks): **web100 captcha**, **web150 sprzedam flagę**, **crypto25 xor** oraz **re100 nieznany format**. Omówiliśmy między innymi jak działa protokół HTTP, jak skonfigurować proxy w przeglądarce (wykorzystaliśmy Burp Suite jako proxy), co nieco o działaniu HSTS. Powiedzieliśmy również co nieco o LLVM, jego pośredniej reprezentacji kodu oraz podstawach asemblera (rejestry procesora, kilka instrukcji, na tyle, aby zrobić zadanie re100).
 
 * Kolejne spotkanie: 15.11.2017 - będziemy bawić się w lokalną eksploitowanie binarek.
 
