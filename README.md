@@ -9,7 +9,7 @@ As the workshops are in Polish, so are the materials here.
 
 * 8.11.2017 - robiliśmy zadania z [mini CTFa od P4 z konferencji Security PWNing Conference 2017](https://pwning2017.p4.team/tasks): **web100 captcha**, **web150 sprzedam flagę**, **crypto25 xor** oraz **re100 nieznany format**. Omówiliśmy między innymi jak działa protokół HTTP, jak skonfigurować proxy w przeglądarce (wykorzystaliśmy Burp Suite jako proxy), co nieco o działaniu HSTS. Powiedzieliśmy również co nieco o LLVM, jego pośredniej reprezentacji kodu oraz podstawach asemblera (rejestry procesora, kilka instrukcji, na tyle, aby zrobić zadanie re100).
 
-* 15.11.2017 - warsztaty z eksploitowania lokalnych programów/binarek prowadzone przez Mateusza 'mawekl' Pstrusia - [przerobione zadania](https://securitytraps.pl/KNI/)
+* 15.11.2017 - warsztaty z eksploitowania lokalnych programów/binarek prowadzone przez Mateusza 'mawekl' Pstrusia. [Przerobione zadania](https://securitytraps.pl/KNI/); prezentacja się tu dopiero pojawi.
 
 * Kolejne spotkanie **w środę 22.11.2017 o 18:00 w D10 226**
 
