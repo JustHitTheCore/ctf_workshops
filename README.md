@@ -11,7 +11,7 @@ As the workshops are in Polish, so are the materials here.
 
 * 15.11.2017 - warsztaty z eksploitowania lokalnych programów/binarek prowadzone przez Mateusza 'mawekl' Pstrusia. [Przerobione zadania](https://securitytraps.pl/KNI/); prezentacja się tu dopiero pojawi.
 
-* Kolejne spotkanie **w środę 22.11.2017 o 18:00 w D10 226**
+* Kolejne spotkanie ~**w środę 22.11.2017 o 18:00 w D10 226**~ jednak w czwartek 30.11
 
 
 ### Warsztaty w roku akademickim 2016/2017
