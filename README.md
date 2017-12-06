@@ -11,8 +11,9 @@ As the workshops are in Polish, so are the materials here.
 
 * 15.11.2017 - warsztaty z eksploitowania lokalnych programów/binarek prowadzone przez Mateusza 'mawekl' Pstrusia. [Przerobione zadania](https://securitytraps.pl/KNI/); prezentacja się tu dopiero pojawi.
 
-* Kolejne spotkanie ~**w środę 22.11.2017 o 18:00 w D10 226**~ jednak w czwartek 30.11
+* 30.11.2017 - warsztaty z niskopoziomowej inżynierii wstecznej; podstawy asemblera. Zrobiliśmy trzy zadania z microcorruption.com/login oraz doszliśmy do tego co robi program z zadania https://challenges.re/1/
 
+* Kolejne spotkanie **w czwartek 7.12.2017 o 18:00 w D10 226**
 
 ### Warsztaty w roku akademickim 2016/2017
 
