@@ -13,7 +13,7 @@ As the workshops are in Polish, so are the materials here.
 
 * 30.11.2017 - warsztaty z niskopoziomowej inżynierii wstecznej; podstawy asemblera. Zrobiliśmy trzy zadania z microcorruption.com/login oraz doszliśmy do tego co robi program z zadania https://challenges.re/1/
 
-* Kolejne spotkanie **w czwartek 7.12.2017 o 18:00 w D10 226**
+* Kolejne spotkanie **w czwartek 7.12.2017 o 18:00 w D10 226** - temat: kryptografia; warsztaty poprowadzi Gros z JHtC.
 
 ### Warsztaty w roku akademickim 2016/2017
 
