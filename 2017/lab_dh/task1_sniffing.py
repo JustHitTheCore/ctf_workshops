@@ -7,24 +7,32 @@
 
 
 from bob_alice import bob, alice
-import multiprocessing
+import argparse
+import string
+from pwn import *
+
+context.log_level = 'error'
+from config import config
+config = config["task1"]
 
 
-def send_data(data):
-    print(data)
+def sniffing():
+    print("Sniffing...")
 
+    alice = remote('localhost', config["port_alice"])
+    # bob = remote('localhost', config["port_bob"])
 
-def receive_data():
-    return raw_input()
+    def send_data(data):
+        print("Bob sends: {}".format(data))
+        alice.sendline(data)
+
+    def receive_data():
+        data = alice.recvline().strip()
+        print("Bob recvs: {}".format(data))
+        return data
+
+    bob(send_data, receive_data)
 
 
 if __name__ == "__main__":
-    stage = [multiprocessing.Condition() for _ in xrange(6)]
-    alice = multiprocessing.Process(target=alice, args=(send_data, receive_data, stage[:]))
-    bob = multiprocessing.Process(target=bob, args=(send_data, receive_data, stage[:]))
-
-    alice.start()
-    bob.start()
-
-    alice.join()
-    bob.join()
+    sniffing()

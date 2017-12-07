@@ -6,6 +6,7 @@
 '''
 
 from hashlib import sha256
+import random
 
 
 def add_padding(data, block_size=16):
@@ -20,6 +21,10 @@ def strip_padding(data, block_size=16):
     if padding == 0 or padding > block_size or data[-padding:] != chr(padding)*padding:
         raise Exception("Invalid padding")
     return data[:-padding]
+
+
+def random_bytes(amount=1):
+    return ''.join([chr(random.randint(0,255)) for x in range(amount)])
 
 
 def derive_key(key_int, block_size=16):
