@@ -32,6 +32,27 @@ Powiedzieliśmy również co nieco o LLVM, jego pośredniej reprezentacji kodu o
 - zreversowaliśmy zadanie https://challenges.re/1/
 - zrobiliśmy trzy zadania z microcorruption.com/login
 
+#### 7.12.2017 - warsztaty z kryptografii - protokół Diffiego-Hellmana
+
+Materiały znajdują się w [2017/lab\_dh](/2017/lab_dh). Serwery z zadaniami można hostować lokalnie następującymi poleceniami:
+```bash
+git clone git@github.com:JustHitTheCore/ctf_workshops.git
+python2 -m pip install pwntools pycrypto  # albo pip install ...
+apt-get install socat  # musimy zainstalować program socat
+cd ctf_workshops/2017/lab_dh/
+source ./setup.sh
+```
+
+Zadania wykorzystują bibliotekę pwntools (stąd wczesniej ją instalujemy) - ma ona między innymi bardzo wygodny interfejs do socketów, stąd wykorzystujemy ją też do rozwiązań.
+
+Kody z zajęć (nieskończone zadania z przedstawioną ideą):
+* [task2\_mitm.py](/2017/lab_dh_done_on_labs/task2_mitm.py)
+* [task4\_subgroup\_confinement.py](/2017/lab_dh_done_on_labs/task4_subgroup_confinement.py)
+
+Treści zadań i więcej informacji jest [w README w materiałach z tych warsztatów](/2017/dh_labs/).
+
+Więcej informacji pojawi się tu, gdy wrzuci je Gros (który prowadził warsztaty).
+
 #### Kolejne spotkanie
 
 **W czwartek 7.12.2017 o 18:00 w D10 226** - temat: kryptografia; warsztaty poprowadzi Gros z JHtC.
