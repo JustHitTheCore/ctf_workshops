@@ -34,11 +34,11 @@ Powiedzieliśmy również co nieco o LLVM, jego pośredniej reprezentacji kodu o
 
 #### 7.12.2017 - warsztaty z kryptografii prowadzone przez Grosa z JHtC - protokół Diffiego-Hellmana
 
-Materiały znajdują się w [2017/lab\_dh](/2017/lab_dh). 
+Materiały/README i przygotowanie zadania są w [2017/lab\_dh](/2017/lab_dh). 
 
-Serwer z uruchomionymi znajduje się pod adresem `80.211.144.146` (powinien być online conajmniej do czasu kolejnych warsztatów).
+Serwer hostujący zadania znajduje się pod adresem `80.211.144.146` (powinien być online conajmniej do czasu kolejnych warsztatów).
 
-Serwery z zadaniami można hostować lokalnie następującymi poleceniami:
+Zadania można również hostować lokalnie następującymi poleceniami:
 ```bash
 git clone git@github.com:JustHitTheCore/ctf_workshops.git
 python2 -m pip install pwntools pycrypto  # albo pip install ...
@@ -47,7 +47,9 @@ cd ctf_workshops/2017/lab_dh/
 source ./setup.sh
 ```
 
-Zadania wykorzystują bibliotekę pwntools (stąd wczesniej ją instalujemy) - ma ona między innymi bardzo wygodny interfejs do socketów, stąd wykorzystujemy ją też do rozwiązań.
+W razie nie posiadania pipa (menedżera paczek pythona) można go zainstalować poleceniem `apt-get install python-pip` lub `wget https://bootstrap.pypa.io/get-pip.py && sudo python2 get-pip.py`.
+
+Zadania (pliki `task*.py`) wykorzystują bibliotekę pwntools (stąd wczesniej ją instalujemy) - ma ona między innymi bardzo wygodny interfejs do socketów, stąd wykorzystujemy ją też do rozwiązań.
 
 Kody z zajęć (nieskończone zadania z przedstawioną ideą):
 * [task2\_mitm.py](/2017/lab_dh_done_on_labs/task2_mitm.py)
