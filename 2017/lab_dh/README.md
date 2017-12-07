@@ -1,4 +1,4 @@
-## Diffie-Hellman
+# Diffie-Hellman
 
 ### Tasks
 
@@ -11,12 +11,12 @@
 
 ### Classical Diffie-Hellman
 ```
-p - 
-g - 
-a
-b
-A
-B
+p - group modulus
+g - group base element
+a - alice private key
+b - bob private key
+A - alice public key == pow(g, b, p)
+B - bob private key == pow(g, a, p)
 
 Alice  -->  p, g       -->  Bob
 Alice  <--  ACK, p, g  <--  Bob
@@ -54,17 +54,20 @@ Just to check if you can break dh only sniffing ;)
 
 ##### Task2.
 Man in the middle (key-fixing attack)
+
 `python ./task2_mitm.py`
 DH without authentication can be broken with simple MITM attack. Just negotiate keys separately with alice and bob.
 Somehow more funny method is to set public keys to, for example, p.
 
 ##### Task3
 Man in the middle (negotiated groups, malicious "g" parameters)
+
 `python ./task3_negotiated_parameters.py`
 Simmilar to above, but we are playing with group parameters.
 
 ##### Task4
 Subgroups Confinement
+
 `python ./task4_subgroup_confinement.py`
 This attack can be used with non-empheral dh (when bob's private key doesn't change), when order of group generator is small enough and groups order is somehow smooth. It's about forcing shared key to be in small subgroup, so it's possible to bruteforce it.
 
