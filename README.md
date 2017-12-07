@@ -32,7 +32,7 @@ Powiedzieliśmy również co nieco o LLVM, jego pośredniej reprezentacji kodu o
 - zreversowaliśmy zadanie https://challenges.re/1/
 - zrobiliśmy trzy zadania z microcorruption.com/login
 
-#### 7.12.2017 - warsztaty z kryptografii - protokół Diffiego-Hellmana
+#### 7.12.2017 - warsztaty z kryptografii prowadzone przez Grosa z JHtC - protokół Diffiego-Hellmana
 
 Materiały znajdują się w [2017/lab\_dh](/2017/lab_dh). Serwery z zadaniami można hostować lokalnie następującymi poleceniami:
 ```bash
@@ -55,7 +55,7 @@ Więcej informacji pojawi się tu, gdy wrzuci je Gros (który prowadził warszta
 
 #### Kolejne spotkanie
 
-**W czwartek 7.12.2017 o 18:00 w D10 226** - temat: kryptografia; warsztaty poprowadzi Gros z JHtC.
+**W czwartek 7.12.2017 o 18:00 w D10 226** - temat: to be defined; jakieś życzenia? ;)
 
 ### Warsztaty w roku akademickim 2016/2017
 
