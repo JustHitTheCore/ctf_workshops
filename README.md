@@ -34,7 +34,11 @@ Powiedzieliśmy również co nieco o LLVM, jego pośredniej reprezentacji kodu o
 
 #### 7.12.2017 - warsztaty z kryptografii prowadzone przez Grosa z JHtC - protokół Diffiego-Hellmana
 
-Materiały znajdują się w [2017/lab\_dh](/2017/lab_dh). Serwery z zadaniami można hostować lokalnie następującymi poleceniami:
+Materiały znajdują się w [2017/lab\_dh](/2017/lab_dh). 
+
+Serwer z uruchomionymi znajduje się pod adresem `80.211.144.146` (powinien być online conajmniej do czasu kolejnych warsztatów).
+
+Serwery z zadaniami można hostować lokalnie następującymi poleceniami:
 ```bash
 git clone git@github.com:JustHitTheCore/ctf_workshops.git
 python2 -m pip install pwntools pycrypto  # albo pip install ...
