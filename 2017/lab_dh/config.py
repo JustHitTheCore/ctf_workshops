@@ -18,5 +18,9 @@ config = {
     "task3": {
         "port_alice": 30001,
         "port_bob": 30002
+    },
+    "task4": {
+        "port_bob": 40001
     }
 }
+

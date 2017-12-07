@@ -8,10 +8,12 @@
 import sys
 from hashlib import sha256
 from binascii import hexlify, unhexlify
-from utils import *
 import random
 import argparse
 from Crypto.Cipher import AES
+import os
+
+from utils import *
 
 
 class Unbuffered(object):
@@ -45,6 +47,8 @@ def alice(send_data, receive_data, check_parameters=False, check_keys=False):
     if check_parameters and (p_bob != p or g_bob != g):
         send_data("No ok")
         sys.exit(1)
+    else:
+        p, g = p_bob, g_bob
 
     a = random.randint(0,p-1)
     A = pow(g, a, p)
@@ -115,12 +119,15 @@ def bob(send_data, receive_data, check_parameters=False, check_keys=False):
 
     #send msg to alice
     if msg2 == "Hello Bob, it's good day to die, isn't it?":
-        iv = random_bytes(16)
-        cipher = AES.new(key, AES.MODE_CBC, iv)
-        msg = "Hello Alice. Flag: jhtc{Remember when we had guns and drums?}"
-        msg = add_padding(msg)
-        msg_enc = cipher.encrypt(msg)
-        send_data(hexlify((iv+msg_enc)))
+        msg = "Hello Alice. Yes it is. Flag: jhtc{Remember when we had guns and drums?}"
+    else:
+        msg = "Meh"
+
+    iv = random_bytes(16)
+    cipher = AES.new(key, AES.MODE_CBC, iv)
+    msg = add_padding(msg)
+    msg_enc = cipher.encrypt(msg)
+    send_data(hexlify((iv+msg_enc)))
 
 
 def send_data(data):
@@ -131,10 +138,92 @@ def receive_data():
     return raw_input()
 
 
+# Subgroups confinement start
+def xor(a, b):
+    return ''.join(chr(ord(x)^ord(y)) for x,y in zip(a,b))
+
+def mac(K, m):
+    """Compute HMAC
+        K(string): key
+        m(string): message
+    """
+    block_size = sha256().block_size
+    if len(K) > block_size:
+        K = sha256(K).digest()
+    if len(K) < block_size:
+        K += '\x00'*(block_size - len(K))
+
+    o_key_pad = '\x5c'*block_size
+    i_key_pad = '\x36'*block_size
+    o_key_pad = xor(o_key_pad, K)
+    i_key_pad = xor(i_key_pad, K)
+    return sha256(o_key_pad + sha256(i_key_pad + m).digest()).digest()
+
+def verify(K, m, t):
+    """Verify HMAC
+        K(string): key
+        m(string): message
+        t(string): tag
+    """
+    if t == mac(K, m):
+        return True
+    return False
+
+def i2b(number):
+    """Integer to bytes"""
+    number_bytes = ''
+    while number:
+        number_bytes += chr(number & 0xff)
+        number >>= 8
+    return number_bytes[::-1]
+
+def bob_non_empheral(send_data, receive_data):
+    p = 7199773997391911030609999317773941274322764333428698921736339643928346453700085358802973900485592910475480089726140708102474957429903531369589969318716771
+    g = 4565356397095740655436854503483826832136106141639563487732438195343690437606117828318042418238184896212352329118608100083187535033402010599512641674644143
+
+    with open('subgroups_confinement_config.txt', 'r') as f:
+        bob_secret_key = int(f.readline().strip())
+
+    public_key = int(receive_data())
+    key = pow(public_key, bob_secret_key, p)
+    key = derive_key(key)
+
+    m = "Sztuka nie ma żadnego celu"
+    t = hexlify(mac(key, m))
+    send_data(m)
+    send_data(t)
+
+def sc_setup():
+    p = 7199773997391911030609999317773941274322764333428698921736339643928346453700085358802973900485592910475480089726140708102474957429903531369589969318716771
+    g = 4565356397095740655436854503483826832136106141639563487732438195343690437606117828318042418238184896212352329118608100083187535033402010599512641674644143
+    q = 236234353446506858198510045061214171961  # order of g
+
+    flag = 'jhtc{lallala kotki dwa kotki dwa}'
+    flag = add_padding(flag)
+
+    bob_secret_key = random.randint(2, q-1)
+
+    alice_secret = random.randint(2, q-1)
+    alice_public = pow(g, alice_secret, p)
+
+    key = pow(alice_public, bob_secret_key, p)
+    key = derive_key(key)
+
+    iv = random_bytes(16)
+    cipher = AES.new(key, AES.MODE_CBC, iv)
+    flag_enc = cipher.encrypt(flag)
+
+    with open('subgroups_confinement_config.txt', 'w') as f:
+        f.write(str(bob_secret_key)+'\n')
+        f.write(str(alice_public)+'\n')
+        f.write(hexlify(flag_enc)+'\n')
+# Subgroups confinement end
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Run alice or bob.')
     parser.add_argument('what_run', type=str, nargs=1,
-                   help='What to run', choices=['alice', 'bob'])
+                   help='What to run', choices=['alice', 'bob', 'subgroups_confinement'])
 
     parser.add_argument('--check_parameters', action='store_const', const=True,
                         default=False, help='check_parameters')
@@ -147,7 +236,13 @@ if __name__ == "__main__":
     try:
         if args.what_run[0] == 'alice':
             alice(send_data, receive_data, args.check_parameters, args.check_keys)
-        else:
+        elif args.what_run[0] == 'bob':
             bob(send_data, receive_data, args.check_parameters, args.check_keys)
+        elif args.what_run[0] == 'subgroups_confinement':
+            if not os.path.isfile('subgroups_confinement_config.txt'):
+                sc_setup()
+            bob_non_empheral(send_data, receive_data)
+        else:
+            print("Nope")
     except Exception as e:
         print("Something wrong!", e)
