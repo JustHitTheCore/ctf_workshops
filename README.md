@@ -51,7 +51,7 @@ W razie nie posiadania pipa (menedżera paczek pythona) można go zainstalować 
 
 Zadania (pliki `task*.py`) wykorzystują bibliotekę pwntools (stąd wczesniej ją instalujemy) - ma ona między innymi bardzo wygodny interfejs do socketów, stąd wykorzystujemy ją też do rozwiązań.
 
-Rozwiązania do zadań z man-in-the-middle oraz matematyka z drugiej części zajęć [TUTAJ](https://github.com/JustHitTheCore/ctf_workshops/tree/master/2017/lab_dh_done_on_labs)
+Rozwiązania do zadań z man-in-the-middle oraz matematyka z drugiej części zajęć [TUTAJ](/2017/lab_dh_done_on_labs)
 
 
 #### Kolejne spotkanie
