@@ -51,13 +51,8 @@ W razie nie posiadania pipa (menedżera paczek pythona) można go zainstalować 
 
 Zadania (pliki `task*.py`) wykorzystują bibliotekę pwntools (stąd wczesniej ją instalujemy) - ma ona między innymi bardzo wygodny interfejs do socketów, stąd wykorzystujemy ją też do rozwiązań.
 
-Kody z zajęć (nieskończone zadania z przedstawioną ideą):
-* [task2\_mitm.py](/2017/lab_dh_done_on_labs/task2_mitm.py)
-* [task4\_subgroup\_confinement.py](/2017/lab_dh_done_on_labs/task4_subgroup_confinement.py)
+Rozwiązania do zadań z man-in-the-middle oraz matematyka z drugiej części zajęć [TUTAJ](https://github.com/JustHitTheCore/ctf_workshops/tree/master/2017/lab_dh_done_on_labs)
 
-Treści zadań i więcej informacji jest [w README w materiałach z tych warsztatów](/2017/dh_labs/).
-
-Więcej informacji pojawi się tu, gdy wrzuci je Gros (który prowadził warsztaty).
 
 #### Kolejne spotkanie
 
