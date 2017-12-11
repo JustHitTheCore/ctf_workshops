@@ -24,7 +24,8 @@ Powiedzieliśmy również co nieco o LLVM, jego pośredniej reprezentacji kodu o
 
 #### 15.11.2017 - warsztaty z eksploitowania lokalnych programów/binarek prowadzone przez Mateusza 'mawekl' Pstrusia.
 
-[Przerobione zadania](https://securitytraps.pl/KNI/); prezentacja się tu dopiero pojawi.
+* [Prezentacja: Eskalacja uprawnień](/2017/Eskalacja-uprawnień.pdf)
+* [Przerobione zadania](https://securitytraps.pl/KNI/)
 
 #### 30.11.2017 - warsztaty z niskopoziomowej inżynierii wstecznej
 
