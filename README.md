@@ -56,7 +56,8 @@ Rozwiązania do zadań z man-in-the-middle oraz matematyka z drugiej części za
 
 #### 14.12.2017 - warsztaty z inżynierii wstecznej
 
-Rozwiązaliśmy kilka zadań z MicroCorruption
+Rozwiązaliśmy kilka zadań z MicroCorruption. [Tutaj](/2017/warsztaty_ctf_mictocorruption.jpg) zdjęcie tablicy podczas analizy jednego z zadań.
+
 
 #### Kolejne spotkanie 'za rok'
 
