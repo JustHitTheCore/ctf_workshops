@@ -54,10 +54,11 @@ Zadania (pliki `task*.py`) wykorzystują bibliotekę pwntools (stąd wczesniej j
 
 Rozwiązania do zadań z man-in-the-middle oraz matematyka z drugiej części zajęć [TUTAJ](/2017/lab_dh_done_on_labs)
 
+#### 14.12.2017 - warsztaty z inżynierii wstecznej
 
-#### Kolejne spotkanie
+Rozwiązaliśmy kilka zadań z MicroCorruption
 
-**W czwartek 7.12.2017 o 18:00 w D10 226** - temat: to be defined; jakieś życzenia? ;)
+#### Kolejne spotkanie 'za rok'
 
 ### Warsztaty w roku akademickim 2016/2017
 
