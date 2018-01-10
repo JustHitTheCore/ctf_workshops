@@ -62,7 +62,9 @@ Rozwiązania do zadań z man-in-the-middle oraz matematyka z drugiej części za
 Rozwiązaliśmy kilka zadań z MicroCorruption. [Tutaj](/2017/warsztaty_ctf_mictocorruption.jpg) zdjęcie tablicy podczas analizy jednego z zadań.
 
 
-#### Kolejne spotkanie: 4.01.2018 - pouczymy się asemblera ARMowego poprzez rozwiązywanie zadań z 34C3 Junior CTF
+#### 4.01.2018 - nauka asemblera ARMowego poprzez rozwiązywanie zadań z 34C3 Junior CTF
+
+#### 11.01.2018 - to be defined na spotkaniu, może web może coś innego
 
 ### Warsztaty w roku akademickim 2016/2017
 
